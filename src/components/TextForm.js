@@ -56,7 +56,7 @@ export default function TextForm(props) {
         <>
             <div className="container">
                 <div className="mb-3">
-                    <label htmlFor="mybox" className="form-label">{props.heading}</label>
+                    <h4>{props.heading}</h4>
                     <textarea className={`form-control border-2 text-bg-${props.mode}`} value={text} onChange={handleonchange} id="mybox" rows="8"></textarea>
                 </div>
                 <div className="buttons d-flex justify-content-around gap-3 flex-wrap">
