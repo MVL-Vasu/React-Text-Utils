@@ -2,7 +2,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
 import { useState } from 'react';
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
             <div className="container mt-4">
                 <TextForm heading="Enter Text to Analyze." mode={mode} />
             </div>
-            <About />
         </>
     );
 }

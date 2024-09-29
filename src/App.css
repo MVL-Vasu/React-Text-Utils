@@ -5,6 +5,7 @@
 body{
     background: linear-gradient(45deg, rgb(241, 241, 241) 50%, rgb(158, 232, 255) 50%);
     transition: all .3s ease-in-out;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -13,7 +14,12 @@ body{
 
 .modebtns{
     display: grid;
+    margin: auto 20px;
     place-items: center;
+}
+
+.form-control{
+    transition: all .3s ease-in-out;
 }
 
 .bx{
