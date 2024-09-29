@@ -1,0 +1,45 @@
+/* .bx{
+    display: none;
+} */
+
+body{
+    background: linear-gradient(45deg, rgb(241, 241, 241) 50%, rgb(158, 232, 255) 50%);
+    transition: all .3s ease-in-out;
+}
+
+.navbar{
+    transition: .4s ease-in-out;
+}
+
+.modebtns{
+    display: grid;
+    place-items: center;
+}
+
+.bx{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ccc;
+    transition: .3s ease-in-out;
+}
+
+.bx-moon:hover{
+    background-color: white;
+    color: black;
+}
+
+.bx-sun{
+    color: black;
+    border: 1px solid #777;
+}
+
+.bx-sun:hover{
+    color: white;
+    background-color: black;
+}
